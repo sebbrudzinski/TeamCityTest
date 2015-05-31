@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9fdcf1ed-5dc9-4649-9dc3-b7fa7cc7ddb1" name="student@KOMP060 2015-04-20 13:53:11" runUser="NMKZLLAB\student" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="student_KOMP060 2015-04-20 13_53_11">
+      <DeploymentItem filename="D:\Sebastian\Blog\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="D:\Sebastian\Blog\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+      <DeploymentItem filename="D:\Sebastian\Blog\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="D:\Sebastian\Blog\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="D:\Sebastian\Blog\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-04-20T13:53:11.4942452+02:00" queuing="2015-04-20T13:53:11.5472505+02:00" start="2015-04-20T13:53:11.5502508+02:00" finish="2015-04-20T13:53:12.3113269+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="d:\sebastian\blog\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="cad19370-e99f-4202-a005-3005517dcad7" />
+      <TestMethod codeBase="D:/Sebastian/Blog/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+    <UnitTest name="CreatePost_ShouldAddPost" storage="d:\sebastian\blog\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="788daeef-2bb5-b1c0-448d-38348e8092b8">
+      <Execution id="5cc2f5ff-0506-4494-a2bd-2f7acf1e65ca" />
+      <TestMethod codeBase="D:/Sebastian/Blog/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreatePost_ShouldAddPost" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="788daeef-2bb5-b1c0-448d-38348e8092b8" executionId="5cc2f5ff-0506-4494-a2bd-2f7acf1e65ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="cad19370-e99f-4202-a005-3005517dcad7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5cc2f5ff-0506-4494-a2bd-2f7acf1e65ca" testId="788daeef-2bb5-b1c0-448d-38348e8092b8" testName="CreatePost_ShouldAddPost" computerName="KOMP060" duration="00:00:00.6261977" startTime="2015-04-20T13:53:11.5522510+02:00" endTime="2015-04-20T13:53:12.2953253+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cc2f5ff-0506-4494-a2bd-2f7acf1e65ca">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cad19370-e99f-4202-a005-3005517dcad7" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="KOMP060" duration="00:00:00.0053962" startTime="2015-04-20T13:53:12.2953253+02:00" endTime="2015-04-20T13:53:12.3023260+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cad19370-e99f-4202-a005-3005517dcad7">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

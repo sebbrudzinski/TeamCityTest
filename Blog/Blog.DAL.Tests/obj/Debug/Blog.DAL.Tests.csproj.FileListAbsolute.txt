@@ -1,0 +1,16 @@
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.dll.config
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.dll
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.Tests.pdb
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.dll
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\EntityFramework.dll
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\TDD.DbTestHelpers.dll
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.Core.dll
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.RepresentationModel.dll
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\Blog.DAL.pdb
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\EntityFramework.xml
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\TDD.DbTestHelpers.pdb
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.Core.pdb
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\bin\Debug\YamlDotNet.RepresentationModel.pdb
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\obj\Debug\Blog.DAL.Tests.csprojResolveAssemblyReference.cache
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\obj\Debug\Blog.DAL.Tests.dll
+D:\Sebastian\Blog\Blog\Blog.DAL.Tests\obj\Debug\Blog.DAL.Tests.pdb
